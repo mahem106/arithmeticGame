@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arithmetic Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" charset="utf-8"></script>
+</head>
+<body>
+  <h1>Let's Do Math!</h1>
+  <h2>Find the solution to the problem!</h2>
+  <h3>
+    <span id="score"></span>
+    <span id="skipped"></span>
+  </h3>
+  <span>Solve division problems to one decimal place.</span>
+  <div id='problem'>
+    <table>
+      <tr>
+        <td id="firstNumber"></td>
+        <td id="operator"></td>
+        <td id="secondNumber"></td>
+        <td id="equals">=</td>
+        <td id="inputField"></td>
+      </tr>
+    </table>
+  </div>
+  <span id="result"></span>
+  <div id='buttons'>
+    <button id='reset'>Reset <i class="fa fa-refresh fa-spin"></i></button>
+    <button id='clear'>Clear <i class="fa fa-eraser"></i></button>
+    <button id='skip'>Skip <i class="fa fa-share"></i></button>
+    <button id='check'>Check <i class="fa fa-check"></i></button>
+  </div>
+  <br>
+  <br>
+  <div  id='numbers'>
+    <table>
+      <tr class="numbers">
+        <td>
+          <button class="number" value="1">1</button>
+        </td>
+        <td>
+          <button class="number" value="2">2</button>
+        </td>
+        <td>
+          <button class="number" value="3">3</button>
+        </td>
+        <td>
+          <button class="number" value="4">4</button>
+        </td>
+        <td>
+          <button class="number" value="5">5</button>
+        </td>
+        <td>
+          <button class="number" value="6">6</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="number" value="7">7</button>
+        </td>
+        <td>
+          <button class="number" value="8">8</button>
+        </td>
+        <td>
+          <button class="number" value="9">9</button>
+        </td>
+        <td>
+          <button class="number" value="0">0</button>
+        </td>
+        <td>
+          <button id="decimal" value=".">.</button>
+        </td>
+        <td>
+          <button id="negative" value="-">+/-</button>
+        </td>
+      </tr>
+    </table>
+  <div>
+</body>
+</html>
